@@ -1,0 +1,81 @@
+
+.skills
+    margin-top: 12rem
+
+.skills__info
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    margin-bottom: 9rem
+
+.skills__text
+    max-width: 70rem
+    font-family: var(--monoFont)
+    text-transform: uppercase
+    font-size: 1.6rem
+    line-height: 3.5rem
+    margin-bottom: 6rem
+
+.skills__grid
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 4rem
+
+.skills__info--big
+    grid-column: 1 / 4
+
+.skill__card
+    display: flex
+    justify-content: center
+    border: solid .1rem var(--white)
+    border-radius: 2rem
+
+.skill__ctr
+    margin: 6rem 0
+
+.skill__title
+    font-family: var(--monoFont)
+    text-transform: uppercase
+    font-size: 1.6rem
+    font-weight: 800
+    margin-bottom: 3rem
+
+.skill__items
+    font-family: var(--monoFont)
+    text-transform: uppercase
+    list-style: none
+    font-size: 1.6rem
+    font-weight: 300
+
+.skill__items > *:not(:last-child)
+    line-height: 6rem
+
+//* btn
+
+.btn__ctr
+    display: flex
+    justify-content: center
+    align-items: center
+
+.btn
+    display: flex
+    justify-content: center
+    align-items: center
+    font-family: var(--monoFont)
+    text-transform: uppercase
+    text-decoration: none
+    color: var(--white)
+    font-size: 1.4rem
+    font-weight: 300
+    border: solid .1rem var(--white)
+    padding: 1.4rem 2rem 1.4rem 2.4rem
+    border-radius: 5rem
+    transition: all .2s ease
+
+.btn__icon
+    margin-left: 1rem
+    font-size: 2rem
+
+.btn:hover
+    border: solid .1rem var(--primary)
+    color: var(--primary)
